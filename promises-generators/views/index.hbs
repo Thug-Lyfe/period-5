@@ -1,0 +1,12 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+<ul>
+    <div>
+        <h2>jokes</h2>
+        <ul>
+            {{#each jokes}}
+                <li>{{@index}}. {{this}}</li>
+            {{/each}}
+        </ul>
+    </div>
+</ul>
